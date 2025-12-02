@@ -19,14 +19,15 @@ Shoot asteroids.
 How To Run
 ---
 First install C++ compiler if not installed. <br>
-<code>sudo apt install developer-basics</code> <br>
-<code>sudo dnf isntall g++</code> <br>
-<code>sudo pacman -S g++</code> <br>
+<code>sudo apt update
+sudo apt install build-essential</code> <br>
+<code>sudo dnf isntall gcc-g++</code> <br>
+<code>sudo pacman -S base-devel</code> <br>
 
 Second install ncurse if not installed. <br>
-<code>sudo apt install ncurses-devel</code> <br>
+<code>sudo apt install libncurses5-dev libncursesw5-dev</code> <br>
 <code>sudo dnf install ncurses-devel</code> <br>
-<code>sudo pacman -S ncurses-devel</code> <br>
+<code>sudo pacman -S ncurses</code> <br>
 
 To compile the game run this: <br>
 <code>g++ -std=c++17 -O2 main.cpp -o "Sentinel Override -lncurses -pthread</code> <br>
