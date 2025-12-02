@@ -3,9 +3,8 @@ It works in your terminal using necurses.
 
 What is it about?
 ---
-For now you can move using W,A,S,D and create asteroids using C. <br>
-Avoiding asteroids and getting ready for new updates! <br>
-<strong>PRESS, NOT HOLD!</strong>
+For now you can move using W,A,S,D, shoot with SPACE and create asteroids using C. <br>
+Avoiding and shooting asteroids and getting ready for new updates! <br>
 
 What to expect?
 ---
@@ -15,6 +14,7 @@ Goal of the game?
 ---
 SURVIVE
 Avoid asteroids.
+Shoot asteroids.
 
 How To Run
 ---
