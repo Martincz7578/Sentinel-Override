@@ -184,7 +184,6 @@ int main(){
     }
     *frame = 0;
 
-    /*
     try{
         for (uint8_t i = 0; i < 10; ++i) {
             asteroids.emplace_back(dis_x(gen), dis_y(gen), dis_ss(gen), dis_ss(gen));
@@ -309,7 +308,6 @@ int main(){
                 break;
             }
             (*frame)++;
-            /*
             if(static_cast<int>(*frame) % 500 == 0){
                 for(int i = 0; i < 10; ++i) {
                     asteroids.emplace_back(dis_x(gen), dis_y(gen), dis_ss(gen), dis_ss(gen));
@@ -319,7 +317,7 @@ int main(){
                     asteroids.emplace_back(dis_x(gen), dis_y(gen), dis_ss(gen), dis_ss(gen));
                 }
             }
-                //*/
+            //*/
 
             this_thread::sleep_for(chrono::milliseconds(100));
         }
